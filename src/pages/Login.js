@@ -1,20 +1,14 @@
-import styled from 'styled-components';
+import { PageStyle } from '../assets/styles/PageStyle';
 import AuthForm from '../components/AuthForm';
 
 export default function Login(){
 
     return(
         <>
-        <AuthStyle>
+        <PageStyle>
             <AuthForm/>
-        </AuthStyle>
+        </PageStyle>
         </>
     );
 }
 
-const AuthStyle = styled.div`
-
-    width:100%;
-    height: 100%;
-    min-height: 100vh;
-`
